@@ -1,0 +1,15 @@
+[user]
+	name = Roberto Gomez
+	email = mail@robertogomezjr.com
+[merge]
+	tool = vimdiff
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[alias]
+	unpushed = log --branches --not --remotes
+	st = status
+	graph = log --graph --decorate --abbrev-commit --pretty=oneline --all
+[core]
+	excludesfile = ~/.gitignore_global

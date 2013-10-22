@@ -1,0 +1,11 @@
+URxvt.depth: 32
+
+!scrollbar
+URxvt.scrollBar: false
+
+!cursor
+URxvt.cursorBlink: true
+
+!Custom X resources for the local system such as font, colors, etc.
+#include ".Xlocal"
+
