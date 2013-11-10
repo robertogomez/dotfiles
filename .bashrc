@@ -2,6 +2,11 @@
 # ~/.bashrc
 #
 
+alias la='ls -a'
+alias ll='ls -l'
+alias lal='ls -al'
+alias compton='compton --backend xrender --vsync opengl --paint-on-overlay --config ~/.compton.conf -b'
+
 export EDITOR="vim"
 
 # Double lined prompt, all white with bold blue path and green '$'
@@ -11,8 +16,6 @@ PS1="\[\033[0;37m\]\342\224\214\342\224\200[\u@\h]\342\224\200[\[\033[1;34m\]\w\
 #PS1='\[\e[0;37m\][\u@\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\]\[\e[0;37m\]]\[\e[m\] \[\e[0;37m\]\$\[\e[m\] '
 
 source /usr/share/git/completion/git-completion.bash
-
-alias compton='compton --backend xrender --vsync opengl --paint-on-overlay --config ~/.compton.conf -b'
 
 # Execute ls command using colors defined by the LS_COLORS env. var.
 alias ls='ls --color=auto'
