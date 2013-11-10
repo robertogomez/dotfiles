@@ -11,5 +11,10 @@
 	unpushed = log --branches --not --remotes
 	st = status
 	graph = log --graph --decorate --abbrev-commit --pretty=oneline --all
+	co = checkout
+	br = branch
+	ct = commit
+	df = diff
+	last = log -1 HEAD
 [core]
 	excludesfile = ~/.gitignore_global
