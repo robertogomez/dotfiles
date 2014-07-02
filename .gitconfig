@@ -16,5 +16,7 @@
 	ct = commit
 	df = diff
 	last = log -1 HEAD
+	alias = config --get-regexp alias
+	tree = ls-tree -r --full-tree HEAD
 [core]
 	excludesfile = ~/.gitignore_global
