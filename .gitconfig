@@ -10,7 +10,7 @@
 [alias]
 	unpushed = log --branches --not --remotes
 	st = status
-	graph = log --graph --decorate --abbrev-commit --pretty=oneline --all
+	gr = log --graph --decorate --abbrev-commit --pretty=oneline --all
 	co = checkout
 	br = branch
 	ct = commit
@@ -20,3 +20,4 @@
 	tree = ls-tree -r --full-tree HEAD
 [core]
 	excludesfile = ~/.gitignore_global
+	pager = less -S
