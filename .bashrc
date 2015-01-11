@@ -6,9 +6,11 @@ alias la='ls -a'
 alias ll='ls -lh'
 alias lal='ls -alh'
 alias ls='ls --color=auto'
-alias compton='compton --backend xrender --vsync opengl --paint-on-overlay --config ~/.compton.conf -b'
+alias view='vim -R'
 alias steam='STEAM_FRAME_FORCE_CLOSE=1 steam'
+alias compton='compton --backend xrender --vsync opengl --paint-on-overlay --config ~/.compton.conf -b'
 
+set -o vi
 export EDITOR="vim"
 source /usr/share/git/completion/git-completion.bash
 
