@@ -113,8 +113,6 @@ set showmode
 
 " Enable plugin manager pathogen
 execute pathogen#infect()
-" Source Simplenote credentials for simplenote.vim
-source ~/.simplenoterc
 " Perform syntax checks on file open
 let g:syntastic_check_on_open=1
 " Don't perform syntax checks on :wq
@@ -123,13 +121,15 @@ let g:syntastic_check_on_wq=0
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='!'
 " Disable don't use ID's rule for csslint
-let g:syntastic_csslint_options = "--ignore=ids"
+let g:syntastic_css_csslint_args = "--ignore=ids"
+" Check Python 2 rather than 3
+let g:syntastic_python_python_exec = '/usr/bin/python2'
 
 " Enable 256 colors
 set t_Co=256
 set background=dark
 
-colorscheme manxome
+colorscheme delek
 
 " The following must come after the colorscheme to avoid being overwritten
 " Change gutter color
