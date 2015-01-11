@@ -1,0 +1,44 @@
+!transparency
+URxvt.background: [90]#000000
+
+!font
+URxvt.font: xft:terminus:size=10
+
+! pulp
+! special
+*.foreground:   #cccccc
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #86817e
+*.color8:       #86817e
+
+! red
+*.color1:       #d75756
+*.color9:       #a63a3a
+
+! green
+*.color2:       #688c7d
+*.color10:      #688c7d
+
+! yellow
+*.color3:       #ffb365
+*.color11:      #ffb365
+
+! blue
+*.color4:       #68778c
+*.color12:      #68778c
+
+! magenta
+*.color5:       #fdb3b2
+*.color13:      #8c686a
+
+! cyan
+*.color6:       #86abd9
+*.color14:      #86abd9
+
+! white
+*.color7:       #dddddd
+*.color15:      #dddddd
+
