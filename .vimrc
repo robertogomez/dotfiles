@@ -109,3 +109,5 @@ set showmode
 " Use both Unix and DOS file formats, but favor Unix for new files
 set fileformats=unix,dos
 
+source local.vim
+
